@@ -1,4 +1,7 @@
-# GP2 clinical data dictionary repository
+# GP2 Clinical Data Dictionary Repository
+
+**Last Updated: August 2025**
+
 Welcome to the GP2 clinical data dictionary repository!
 
 This repo is the central, version-controlled source for GP2’s data dictionary.
