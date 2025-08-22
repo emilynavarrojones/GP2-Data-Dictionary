@@ -1,8 +1,13 @@
 # GP2 Clinical Data Dictionary Repository
 
+[![DOI](https://zenodo.org/badge/1042396505.svg)](https://doi.org/10.5281/zenodo.16923772)
+
+Persistent DOI (all versions): 10.5281/zenodo.16923772
+
 **Last Updated: August 2025**
 
-Welcome to the GP2 clinical data dictionary repository!
+---
+## Welcome to the GP2 clinical data dictionary repository!
 
 This repo is the central, version-controlled source for GP2’s data dictionary.
 It helps researchers and collaborators keep variables consistent, document updates transparently, and make sure everyone uses and references the most up-to-date GP2 standard format for clinical data.
@@ -53,7 +58,7 @@ Then reference the dictionary in your own analyses or harmonization pipelines.
 
 ## How to cite
 If you use this data dictionary in your work, please cite it as:
-GP2 Data Dictionary. Version 1.1. GitHub Repository: https://github.com/GP2code/GP2-Data-Dictionary.git. Accessed YYYY-MM-DD.
+GP2 Data Dictionary. Version 1.1. GitHub Repository: https://github.com/GP2code/GP2-Data-Dictionary.git. DOI: 10.5281/zenodo.16923772. Accessed YYYY-MM-DD.
 
 ## Maintainers
 Maintainer: Lietsel Jones
