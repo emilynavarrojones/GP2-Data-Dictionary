@@ -680,7 +680,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 0,Modified MERQ-PD,,m_merq_diabetes_dx_age,How old were you when a healthcare provider diagnosed you with diabetes?,numeric,nullable,(y>=0),
 0,Modified MERQ-PD,,m_merq_exercise_per_week,"On average, how many days per week do you engage in at least moderate exercise or activities? Moderate exercise or activities cause a small increases in breathing or heart rate, such as brisk walking or bicycling",numeric,nullable,(y>=0),
 0,Modified MERQ-PD,,m_merq_exercise_minutes,"On average, how many minutes do you engage in exercise at this level on a given day?",numeric,nullable,(y>=0),
-0,Modified MERQ-PD,,m_merq_active_duration,For how long have you been at least this physically activie or more physically active?,numeric,nullable,(y>=0),
+0,Modified MERQ-PD,,m_merq_active_duration,For how long have you been at least this physically active or more physically active?,numeric,nullable,(y>=0),
 0,DAT_imaging,0,dat_low_dopamine_reuptake,DAT dopamine re-uptake negative. DAT dopamine transporter binding normal = SWEDD = 1. DAT binding abnormal = PD = 0,numeric,nullable,"y.isin([0,1])",
 0,DAT_imaging,1,dat_sbr_caudate_right,SBR for right caudate,numeric,nullable,(y>0)&(y<10),
 0,DAT_imaging,2,dat_sbr_caudate_left,SBR for left caudate,numeric,nullable,(y>0)&(y<10),
@@ -1199,3 +1199,4 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
