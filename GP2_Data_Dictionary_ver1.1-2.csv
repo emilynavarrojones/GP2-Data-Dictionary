@@ -289,6 +289,8 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 0,MoCA,40,moca_orientation_subscore,MOCA: Orientation Subscore,integer,nullable,"y.isin([0,1,2,3,4,5,6])",
 0,MoCA,41,moca_total_score,MOCA Total Score,integer,nullable,(y>=0) & (y<=30),
 0,MoCA,42,moca_total_score_adjusted,MoCA Total Score adjusted for education,integer,nullable,(y>=0) & (y<=31),
+0,MoCA,43,moca_blind_total_score,MOCA Blind Total Score,integer,nullable,(y>=0) & (y<=22),
+0,MoCA,44,moca_blind_total_score_adjusted,MoCA Blind Total Score adjusted for education,integer,nullable,(y>=0) & (y<=23),
 0,SDM,1,sdm_score,Symbol Digit Modalities Test,integer,nullable,(y>=0) & (y<=110),
 0,SCOPA-AUT,1,scopa_aut01_swallowing,SCOPA-AUT item 1 - swallowing,string,nullable,"['never', 'sometimes', 'regularly', 'often']",
 0,SCOPA-AUT,2,scopa_aut02_dribbling,SCOPA-AUT item 2 - dribbling,string,nullable,"['never', 'sometimes', 'regularly', 'often']",
@@ -1199,4 +1201,5 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
 
