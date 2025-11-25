@@ -839,7 +839,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 0,CBD-Armstrong,10,cbd_armstrong_exclusion_criteria_04_evidence_PPA,CBD exclusion criteria 04: Semantic- or logopenic-variant PPA,string,nullable,"[""Yes"", ""No""]",
 0,CBD-Armstrong,11,cbd_armstrong_exclusion_criteria_05_focal_lesion,CBD exclusion criteria 05: Structural lesion suggestive of focal cause,string,nullable,"[""Yes"", ""No""]",
 0,CBD-Armstrong,12,cbd_armstrong_exclusion_criteria_06_granulin_mutation,CBD exclusion criteria 06: Granulin mutation or reduced plasma progranulin levels; TDP-43 mutations; FUS mutations,string,nullable,"[""Yes"", ""No""]",
-0,CBD-Armstrong,13,cbd_armstrong_exclusion_criteria_07_evidence_AD,"CBD exclusion criteria 07: Evidence of Alzheimer's disease (excludes CBD with coexisting amyloid); laboratory findings strongly suggestive of AD such as low CSF AŒ≤42 to Tau ratio or positive Pittsburgh PET; or genetic mutation suggesting AD (e.g. PSEN, APP)",string,nullable,"[""Yes"", ""No""]",
+0,CBD-Armstrong,13,cbd_armstrong_exclusion_criteria_07_evidence_AD,"CBD exclusion criteria 07: Evidence of Alzheimer's disease (excludes CBD with coexisting amyloid); laboratory findings strongly suggestive of AD such as low CSF Aβ42 to Tau ratio or positive Pittsburgh PET; or genetic mutation suggesting AD (e.g. PSEN, APP)",string,nullable,"[""Yes"", ""No""]",
 0,CBD-Armstrong,14,cbd_armstrong_criteria_application,CBD applied criteria,string,nullable,"[""Possible"", ""Probable"", ""No""]",
 0,DLB,1,dlb_essential_dementia,"Dementia. In the early stages, prominent memory impairment may not occur, but deficits of attention, executive function, and visuoperceptual ability may be prominent.",string,nullable,"[""Yes"", ""No""]",
 0,DLB,2,dlb_core_01_cognitive_fluctutations,Fluctuating cognition with pronounced variations in attention and alertness,string,nullable,"[""Yes"", ""No""]",
@@ -1201,5 +1201,6 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
 
 
