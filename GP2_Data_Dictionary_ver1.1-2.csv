@@ -847,20 +847,20 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 0,DLB,4,dlb_core_03_RBD,"Rapid eye movement (REM) sleep behavior disorder (RBD), which may precede cognitive decline",string,nullable,"[""Yes"", ""No""]",
 0,DLB,5,dlb_core_04_parkinsonism,"One or more spontaneous cardinal features of parkinsonism: bradykinesia, resting tremor, or rigidity",string,nullable,"[""Yes"", ""No""]",
 0,DLB,6,dlb_supportive_01_sensitivity_antipsychotics,Severe sensitivity to antipsychotic agents,string,nullable,"[""Yes"", ""No""]",
-0,DLB,7,dlb_supportive_02_postural insitability,Postural instability,string,nullable,"[""Yes"", ""No""]",
+0,DLB,7,dlb_supportive_02_postural_instability,Postural instability,string,nullable,"[""Yes"", ""No""]",
 0,DLB,8,dlb_supportive_03_repeated_falls,Repeated falls,string,nullable,"[""Yes"", ""No""]",
 0,DLB,9,dlb_supportive_04_syncope_unresponsiveness,Syncope or other transient episodes of unresponsiveness,string,nullable,"[""Yes"", ""No""]",
 0,DLB,10,dlb_supportive_05_autonomic_dysfunction,"Severe autonomic dysfunction (e.g. constipation, orthostatic hypotension, or urinary incontinence)",string,nullable,"[""Yes"", ""No""]",
 0,DLB,11,dlb_supportive_06_hypersomnia,Hypersomnia,string,nullable,"[""Yes"", ""No""]",
 0,DLB,12,dlb_supportive_07_hyposmia,Hyposmia,string,nullable,"[""Yes"", ""No""]",
 0,DLB,13,dlb_supportive_08_other_hallucinations,Hallucinations in other modalities,string,nullable,"[""Yes"", ""No""]",
-0,DLB,14,dlb_supportive_09_systematised_delusions,Systematized delusions,string,nullable,"[""Yes"", ""No""]",
+0,DLB,14,dlb_supportive_09_systematized_delusions,Systematized delusions,string,nullable,"[""Yes"", ""No""]",
 0,DLB,15,dlb_supportive_10_apathy_anxiety_depression,"Apathy, anxiety, and depression",string,nullable,"[""Yes"", ""No""]",
 0,DLB,16,dlb_indicative_biomarkers_01_reduced_DA_SPECT_PET,Reduced dopamine transporter uptake in basal ganglia demonstrated by SPECT/PET,string,nullable,"[""Yes"", ""No""]",
 0,DLB,17,dlb_indicative_biomarkers_02_low_MIBG,Abnormal (low uptake) 123I-MIBG myocardial scintigraphy,string,nullable,"[""Yes"", ""No""]",
 0,DLB,18,dlb_indicative_biomarkers_03_polysomnograph,Polysomnographic confirmation of REM sleep without atonia,string,nullable,"[""Yes"", ""No""]",
 0,DLB,19,dlb_supportive_biomarkers_01_MTL_preservation,A relative preservation of medial temporal lobe structures on CT/MRI scan,string,nullable,"[""Yes"", ""No""]",
-0,DLB,20,dlb_supportive_biomarkers_02_low_perfusion_metabolism_SPECT_PET,Generalized low uptake on SPECT/PET perfusion/metabolism scan with reduced occipital activity ¬± the cingulate island sign on FDG-PET imaging,string,nullable,"[""Yes"", ""No""]",
+0,DLB,20,dlb_supportive_biomarkers_02_low_perfusion_metabolism_SPECT_PET,Generalized low uptake on SPECT/PET perfusion/metabolism scan with reduced occipital activity ± the cingulate island sign on FDG-PET imaging,string,nullable,"[""Yes"", ""No""]",
 0,DLB,21,dlb_supportive_biomarkers_03_posterior_slow_EEG_fluctuations,Prominent posterior slow-wave activity on EEG with periodic fluctuations in the pre-alpha/theta range,string,nullable,"[""Yes"", ""No""]",
 0,DLB,22,dlb_criteria_application,DLB criteria application,string,nullable,"[""No"", ""Possible"", ""Probable""]",
 0,UMSARS part I ,1,umsars_i_01_speech,Speech,integer,nullable,"y.isin([0,1,2,3,4])",
@@ -1201,6 +1201,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
 
 
 
