@@ -842,7 +842,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 0,CBD-Armstrong,13,cbd_armstrong_exclusion_criteria_07_evidence_AD,"CBD exclusion criteria 07: Evidence of Alzheimer's disease (excludes CBD with coexisting amyloid); laboratory findings strongly suggestive of AD such as low CSF Aβ42 to Tau ratio or positive Pittsburgh PET; or genetic mutation suggesting AD (e.g. PSEN, APP)",string,nullable,"[""Yes"", ""No""]",
 0,CBD-Armstrong,14,cbd_armstrong_criteria_application,CBD applied criteria,string,nullable,"[""Possible"", ""Probable"", ""No""]",
 0,DLB,1,dlb_essential_dementia,"Dementia. In the early stages, prominent memory impairment may not occur, but deficits of attention, executive function, and visuoperceptual ability may be prominent.",string,nullable,"[""Yes"", ""No""]",
-0,DLB,2,dlb_core_01_cognitive_fluctutations,Fluctuating cognition with pronounced variations in attention and alertness,string,nullable,"[""Yes"", ""No""]",
+0,DLB,2,dlb_core_01_cognitive_fluctuations,Fluctuating cognition with pronounced variations in attention and alertness,string,nullable,"[""Yes"", ""No""]",
 0,DLB,3,dlb_core_02_visual_hallucinations,Recurrent visual hallucinations that are typically well formed and detailed,string,nullable,"[""Yes"", ""No""]",
 0,DLB,4,dlb_core_03_RBD,"Rapid eye movement (REM) sleep behavior disorder (RBD), which may precede cognitive decline",string,nullable,"[""Yes"", ""No""]",
 0,DLB,5,dlb_core_04_parkinsonism,"One or more spontaneous cardinal features of parkinsonism: bradykinesia, resting tremor, or rigidity",string,nullable,"[""Yes"", ""No""]",
@@ -1201,6 +1201,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
 
 
 
