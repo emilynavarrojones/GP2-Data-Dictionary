@@ -468,16 +468,16 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 0,WBC counts,5,monocyte_count,/microL,numeric,nullable,(y>=0) & (y<=100000),
 0,King's PD pain scale,1,king_01_joints_severity,Does the patient experience pain around his/her joints? This includes arthritic pain. ,integer,nullable,"y.isin([0,1,2,3])",
 0,King's PD pain scale,2,king_01_joints_freq,Frequency of joint pain,integer,nullable,"y.isin([0,1,2,3,4])",
-0,King's PD pain scale,3,king_02_deep_body_severity,"Does the patient experience pain deep within the body? (A generalised constant, dull, aching pain ‚Äì central pain) ",integer,nullable,"y.isin([0,1,2,3])",
+0,King's PD pain scale,3,king_02_deep_body_severity,"Does the patient experience pain deep within the body? (A generalised constant, dull, aching pain - central pain) ",integer,nullable,"y.isin([0,1,2,3])",
 0,King's PD pain scale,4,king_02_deep_body_freq,Frequency of pain deep within the body,integer,nullable,"y.isin([0,1,2,3,4])",
-0,King's PD pain scale,5,king_03_organ_severity,"Does the patient experience pain related to an internal organ? (For example, pain around the liver, stomach or bowels ‚Äì visceral pain)",integer,nullable,"y.isin([0,1,2,3])",
+0,King's PD pain scale,5,king_03_organ_severity,"Does the patient experience pain related to an internal organ? (For example, pain around the liver, stomach or bowels - visceral pain)",integer,nullable,"y.isin([0,1,2,3])",
 0,King's PD pain scale,6,king_03_organ_freq,Frequency of pain related to an internal organ,integer,nullable,"y.isin([0,1,2,3,4])",
 0,King's PD pain scale,7,king_04_dyskinetic_severity,Does the patient experience dyskinetic pain? (pain related to abnormal involuntary movements),integer,nullable,"y.isin([0,1,2,3])",
 0,King's PD pain scale,8,king_04_dyskinetic_freq,Frequency of dyskinetic pain,integer,nullable,"y.isin([0,1,2,3,4])",
-0,King's PD pain scale,9,king_05_offdystonia_specific_severity,Does the patient experience ‚Äúoff‚Äù period dystonia in a specific region? (in the area of dystonia),integer,nullable,"y.isin([0,1,2,3])",
-0,King's PD pain scale,10,king_05_offdystonia_specific_freq,"Frequency of ""off"" period dystonia",integer,nullable,"y.isin([0,1,2,3,4])",
-0,King's PD pain scale,11,king_06_offdystonia_general_severity,Does the patient experience generalised ‚Äúoff‚Äù period pain? (pain in whole body or areas distant to dystonia),integer,nullable,"y.isin([0,1,2,3])",
-0,King's PD pain scale,12,king_06_offdystonia_general_freq,"Frequency of generalised ""off"" period pain",integer,nullable,"y.isin([0,1,2,3,4])",
+0,King's PD pain scale,9,king_05_offdystonia_specific_severity,Does the patient experience "off" period dystonia in a specific region? (in the area of dystonia),integer,nullable,"y.isin([0,1,2,3])",
+0,King's PD pain scale,10,king_05_offdystonia_specific_freq,"Frequency of "off" period dystonia",integer,nullable,"y.isin([0,1,2,3,4])",
+0,King's PD pain scale,11,king_06_offdystonia_general_severity,Does the patient experience generalised "off" period pain? (pain in whole body or areas distant to dystonia),integer,nullable,"y.isin([0,1,2,3])",
+0,King's PD pain scale,12,king_06_offdystonia_general_freq,"Frequency of generalised "off" period pain",integer,nullable,"y.isin([0,1,2,3,4])",
 0,King's PD pain scale,13,king_07_leg_movement_night_severity,Does the patient experience pain related to jerking leg movements during the night (PLM) or an unpleasant burning sensation in the legs which improves with movement (RLS)?,integer,nullable,"y.isin([0,1,2,3])",
 0,King's PD pain scale,14,king_07_leg_movement_night_freq,Frequency of pain related to jerking leg movements during the night,integer,nullable,"y.isin([0,1,2,3,4])",
 0,King's PD pain scale,15,king_08_turning_in_bed_severity,Does the patient experience pain related to difficulty turning in bed at night?,integer,nullable,"y.isin([0,1,2,3])",
@@ -487,7 +487,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 0,King's PD pain scale,19,king_10_grinding_teeth_night_severity,Does the patient have pain due to grinding his/her teeth during the night?,integer,nullable,"y.isin([0,1,2,3])",
 0,King's PD pain scale,20,king_10_grinding_teeth_night_freq,Frequency of pain due to grinding teeth at night,integer,nullable,"y.isin([0,1,2,3,4])",
 0,King's PD pain scale,21,king_11_burning_mouth_severity,Does the patient have burning mouth syndrome?,integer,nullable,"y.isin([0,1,2,3])",
-0,King's PD pain scale,22,king_11_burning_mouth_freq,Frequency of burning mouth symptom,integer,nullable,"y.isin([0,1,2,3,4])",
+0,King's PD pain scale,22,king_11_burning_mouth_freq,Frequency of burning mouth syndrome,integer,nullable,"y.isin([0,1,2,3,4])",
 0,King's PD pain scale,23,king_12_burning_limbs_severity,Does the patient experience a burning pain in his/her limbs? (often associated with swelling or dopaminergic treatment),integer,nullable,"y.isin([0,1,2,3])",
 0,King's PD pain scale,24,king_12_burning_limbs_freq,Frequency of burning pain in limbs,integer,nullable,"y.isin([0,1,2,3,4])",
 0,King's PD pain scale,25,king_13_lower_abs_severity,Does the patient experience generalised lower abdominal pain?,integer,nullable,"y.isin([0,1,2,3])",
@@ -1201,6 +1201,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
 
 
 
