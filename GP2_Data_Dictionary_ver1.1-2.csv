@@ -388,7 +388,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 0,Geriatric Depression Scale: Short Form,11,code_gds11_wonderful_to_be_alive,"GDS15 - Do you think it is wonderful to be alive?  {""yes"":0, ""no"":1}",integer,nullable,"y.isin([0,1])",
 0,Geriatric Depression Scale: Short Form,12,code_gds12_worthless,"GDS15 - Do you feel pretty worthless the way you are now?  {""yes"":1, ""no"":0}",integer,nullable,"y.isin([0,1])",
 0,Geriatric Depression Scale: Short Form,13,code_gds13_full_of_energy,"GDS15 - Do you feel full of energy?  {""yes"":0, ""no"":1}",integer,nullable,"y.isin([0,1])",
-0,Geriatric Depression Scale: Short Form,14,code_gds14_hopless,"GDS15 - Do you feel that your situation is hopeless?   {""yes"":1, ""no"":0}",integer,nullable,"y.isin([0,1])",
+0,Geriatric Depression Scale: Short Form,14,code_gds14_hopeless,"GDS15 - Do you feel that your situation is hopeless?   {""yes"":1, ""no"":0}",integer,nullable,"y.isin([0,1])",
 0,Geriatric Depression Scale: Short Form,15,code_gds15_not_better_off,"GDS15 - Do you think that most people are better off than you?   {""yes"":1, ""no"":0}",integer,nullable,"y.isin([0,1])",
 0,Geriatric Depression Scale: Short Form,16,gds15_total_score,GDS 15 - Total score,integer,nullable,(y>=0) & (y<=15),
 0,Orthostatic hypotension,1,sbp_standing,Systolic blood pressure at standing position,numeric,nullable,(y>=0) & (y<=300),
@@ -1201,6 +1201,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
 
 
 
