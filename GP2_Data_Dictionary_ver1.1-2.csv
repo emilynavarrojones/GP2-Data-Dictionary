@@ -130,6 +130,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 1,Medical History,16,hx_head_trauma,Have you ever had a head injury or concussion?,string,nullable,"[""Yes"", ""No""]",
 1,Medical History,17,hx_anxiety,Have you ever been diagnosed with an anxiety disorder?,string,nullable,"[""Yes"", ""No""]",
 1,Medical History,18,hx_constipation,Have you ever been diagnosed with constipation?,string,nullable,"[""Yes"", ""No""]",
+1,Medical History,18,hx_hyposmia,Have you ever been diagnosed with hyposmia?,string,nullable,"[""Yes"", ""No""]",
 1,Medical History,19,hx_sleep,Have you ever been diagnosed with sleeping problems?,string,nullable,"[""Yes"", ""No""]",
 1,Lifestyle,1,smoking_status,Smoking status (Can ignore non-substantial smoking),string,nullable,"[""Current smoker"", ""Former smoker"", ""Never"", ""Unknown""]",
 1,Lifestyle,2,smoking_ever_smoker_yes,Smoking status 2 (Can ignore non-substantial smoking) Ever/Never distinction (Ever=1),integer,nullable,"y.isin([0,1])",
@@ -1201,6 +1202,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
 
 
 
