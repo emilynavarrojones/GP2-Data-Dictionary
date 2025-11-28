@@ -751,7 +751,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 0,SAA Positivity,7,saa_smax,Max slope (average of replicates),numeric,nullable,,
 0,SAA Positivity,8,saa_tsmax,Average time to max slope,numeric,nullable,,
 0,SAA Positivity,9,saa_n_replicates,Number of replicates,numeric,nullable,,
-0,SAA Positivity,10,ssa_n_positive,Number of positive replicates (wells),numeric,nullable,,
+0,SAA Positivity,10,saa_n_positive,Number of positive replicates (wells),numeric,nullable,,
 0,MDS-MSA,1,mds_msa_core_voiding_difficulty,Unexplained voiding difficulties,string,nullable,"[""Yes"", ""No""]",
 0,MDS-MSA,2,mds_msa_core_voiding_difficulty_any_residual,Unexplained voiding difficulties with post-void urinary residual of any volume (for clinically probable MSA),string,nullable,"[""Yes"", ""No""]",
 0,MDS-MSA,3,mds_msa_core_voiding_difficulty_residual_over_100,Unexplained voiding difficulties with post-void urinary residual volume >100 mL (for clinically established MSA) ,string,nullable,"[""Yes"", ""No""]",
@@ -1202,6 +1202,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
 
 
 
