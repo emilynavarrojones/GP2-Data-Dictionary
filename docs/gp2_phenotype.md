@@ -9,7 +9,7 @@ These assignments are made by our contributors when their study sample manifests
 Based on these two variables, we also created two additional mapping variables for quality control and analysis purposes:
 
 * `GP2_phenotype_for_qc`: used for QC purposes to identify samples that need to be excluded from certain analyses (e.g., prodromal samples, population controls, etc.)
-* `GP2_PHENO`: study_type and gp2_phenotypes are combined in one column. Could be used for analysis purposes to define study-specific analysis set.
+* `GP2_PHENO`: study_type and gp2_phenotypes are combined in one column. Could be used for analysis purposes to define study-specific analysis sets.
 
 The example of mapping for study_arm and diagnosis to the three GP2 phenotype variables is provided in the table below.
 
