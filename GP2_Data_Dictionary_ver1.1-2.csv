@@ -37,7 +37,7 @@
 1,Diagnosis,2,prodromal_hyposmia,Method of hyposmia diagnosis,string,nullable,"[""Smell clinic"", ""Objective smell tests"", ""Self reported""]",
 1,Diagnosis,3,prodromal_confirmed,Prodromal PD predicted/identified using algorithm by PREDICT-PD or MDS prodromal criteria,string,nullable,"[""PREDICT PD algorithm"", ""MDS prodromal criteria""]",
 1,Diagnosis,1,primary_diagnosis,Most likely primary neurodegenerative diagnosis (baseline),string,nullable,"[""Idiopathic PD"", ""Alzheimer's disease"", ""Frontotemporal dementia"", ""Corticobasal syndrome"", ""Dementia with Lewy bodies"", ""Dopa-responsive dystonia"", ""Essential tremor"", ""Hemiparkinson/hemiatrophy syndrome"", ""Juvenile autosomal recessive parkinsonism"", ""Motor neuron disease with parkinsonism"", ""Multiple system atrophy"", ""Neuroleptic-induced parkinsonism"", ""Normal pressure hydrocephalus"", ""Progressive supranuclear palsy"", ""Psychogenic parkinsonism"", ""Vascular parkinsonism"", ""No PD nor other neurological disorder"", ""Spinocerebellar Ataxia (SCA)"", ""Prodromal non-motor PD"", ""Prodromal motor PD"", ""Other neurological disorder""]",
-1,Diagnosis,2,primary_diagnosis_text,"Other neurological disorders(s) (specify)"" please specify here (baseline)",string,nullable,,
+1,Diagnosis,2,primary_diagnosis_text,"Other neurological disorders(s), please specify here (baseline)",string,nullable,,
 1,Diagnosis,3,code_primary_diagnosis_confidence,What is your percent confidence in your most likely primary diagnosis? (baseline),string,nullable,"[""0-25%"",  ""26-50%"",  ""51-75%"", ""76-100%""]",
 1,Diagnosis,4,last_diagnosis,"Latest ""clinical"" diagnosis",string,nullable,"[""Idiopathic PD"", ""Alzheimer's disease"", ""Frontotemporal dementia"", ""Corticobasal syndrome"", ""Dementia with Lewy bodies"", ""Dopa-responsive dystonia"", ""Essential tremor"", ""Hemiparkinson/hemiatrophy syndrome"", ""Juvenile autosomal recessive parkinsonism"", ""Motor neuron disease with parkinsonism"", ""Multiple system atrophy"", ""Neuroleptic-induced parkinsonism"", ""Normal pressure hydrocephalus"", ""Progressive supranuclear palsy"", ""Psychogenic parkinsonism"", ""Vascular parkinsonism"", ""No PD nor other neurological disorder"", ""Spinocerebellar Ataxia (SCA)"", ""Prodromal non-motor PD"", ""Prodromal motor PD"", ""Other neurological disorder""]",
 1,Diagnosis,5,path_diagnosis,Pathologically confirmed diagnosis,string,nullable,"[""Idiopathic PD"", ""Alzheimer's disease"", ""Frontotemporal dementia"", ""Corticobasal syndrome"", ""Dementia with Lewy bodies"", ""Dopa-responsive dystonia"", ""Essential tremor"", ""Hemiparkinson/hemiatrophy syndrome"", ""Juvenile autosomal recessive parkinsonism"", ""Motor neuron disease with parkinsonism"", ""Multiple system atrophy"", ""Neuroleptic-induced parkinsonism"", ""Normal pressure hydrocephalus"", ""Progressive supranuclear palsy"", ""Psychogenic parkinsonism"", ""Vascular parkinsonism"", ""No PD nor other neurological disorder"", ""Spinocerebellar Ataxia (SCA)"", ""Prodromal non-motor PD"", ""Prodromal motor PD"", ""Other neurological disorder""]",
@@ -1202,6 +1202,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
 
 
 
