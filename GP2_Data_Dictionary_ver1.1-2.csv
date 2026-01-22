@@ -86,7 +86,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 1,MDS_Diagnostic_criteria,24,dx_redflag_08_no_nonmotor_symptoms_5y,"8. Absence of any of the common nonmotor features of disease despite 5 y disease duration. These include sleep dysfunction (sleep-maintenance insomnia, excessive daytime somnolence, symptoms of REM sleep behavior disorder), autonomic dysfunction (constipation, daytime urinary urgency, symptomatic orthostasis), hyposmia, or psychiatric dysfunction (depression, anxiety, or hallucinations)",string,nullable,"[""Yes"", ""No""]",
 1,MDS_Diagnostic_criteria,25,dx_redflag_09_unexplained_pyramidal_tract_signs,"9. Otherwise unexplained pyramidal tract signs, defined as pyramidal weakness or clear pathologic hyperreflexia (excluding mild reflex asymmetry and isolated extensor plantar response)",string,nullable,"[""Yes"", ""No""]",
 1,MDS_Diagnostic_criteria,26,dx_redflag_10_symmetric_parkinsonism,"10. Bilateral symmetric parkinsonism. The patient or caregiver reports bilateral symptom onset with no side predominance, and no side predominance is observed on objective examination",string,nullable,"[""Yes"", ""No""]",
-1,MDS_Diagnostic_criteria,27,dx_criteria_application,Apply the criteria,string,nullable,"[""Clinically established PD"", ""Probable PD"", ""Other"", 'Unknown""]",
+1,MDS_Diagnostic_criteria,27,dx_criteria_application,Apply the criteria,string,nullable,"[""Clinically established PD"", ""Probable PD"", ""Other"", ""Unknown""]",
 1,PD History,1,age_at_first_motor_symptom,Age at first motor symptom,numeric,nullable,(y>=0) & (y<=120),
 1,PD History,2,first_motor_symptom,"First motor symptom. Pick all that apply and separate with ""|"". (e.g, 1, 1|3 or 2|3|5)",string,nullable,"{1:""tremor"", 2:""micrographia"", 3:""stiffness/frozen shoulder"", 4:""Impaired manual dexterity"", 5:""Gait disorder"", 6:""General slowing up"", 7:""Other""}",
 1,PD History,19,living_status_at_censoring,"Event is death. 0=right censored (not yet) 1= event at the ""age"",  2=left censored (already)",numeric,nullable,"y.isin([0,1,2])",
@@ -1202,6 +1202,7 @@ b) Severe urinary retention or urinary incontinence in the first 5 y of disease 
 ,,,,,,,,
 
 ,,,,,,,,
+
 
 
 
